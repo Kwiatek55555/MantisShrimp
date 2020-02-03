@@ -58,11 +58,18 @@ table {
 
 table th {
   background-color: #888888;
+  height: 30px;
 }
 
 table td {
   text-align: center;
   border: solid 1px #888888;
+  height: 30px;
+}
+
+table caption {
+  border: solid 1px #888888;
+  height: 30px;
 }
 
 footer {

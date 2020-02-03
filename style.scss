@@ -58,10 +58,16 @@ table {
     border: solid 1px $mainColor - #111;
     th {
         background-color: $mainColor -#111;
+        height: 30px;
     }
     td {
         text-align: center;
         border: solid 1px $mainColor - #111;
+        height: 30px;
+    }
+    caption {
+        border: solid 1px $mainColor - #111;
+        height: 30px;
     }
 }
 
