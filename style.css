@@ -1,0 +1,47 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  background-color: #444;
+  width: 800px;
+  margin: 10px auto;
+}
+
+p {
+  color: #999;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.253);
+}
+
+h1, h2 {
+  color: white;
+}
+
+h2, p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mantisMain {
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+img {
+  width: 800px;
+}
+/*# sourceMappingURL=style.css.map */
