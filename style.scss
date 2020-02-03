@@ -54,6 +54,7 @@ table {
     color: $mainColor;
     width: $maxsize - 100px;
     margin: 0 auto 30px;
+    border-collapse: collapse;
     border: solid 1px $mainColor - #111;
     th {
         background-color: $mainColor -#111;

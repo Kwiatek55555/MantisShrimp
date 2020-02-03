@@ -52,6 +52,7 @@ table {
   color: #999;
   width: 700px;
   margin: 0 auto 30px;
+  border-collapse: collapse;
   border: solid 1px #888888;
 }
 
