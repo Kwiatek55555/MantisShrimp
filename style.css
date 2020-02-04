@@ -21,9 +21,18 @@ p {
   line-height: 1.5em;
 }
 
+header {
+  position: relative;
+}
+
 h1 {
+  position: absolute;
+  top: 85%;
+  height: 50px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.253);
+  background-color: rgba(0, 0, 0, 0.541);
+  width: 800px;
+  padding: 5px 0;
 }
 
 h1, h2 {
@@ -49,7 +58,7 @@ article {
 }
 
 table {
-  color: #999;
+  color: #bbbbbb;
   width: 700px;
   margin: 0 auto 30px;
   border-collapse: collapse;
@@ -70,6 +79,8 @@ table td {
 table caption {
   border: solid 1px #888888;
   height: 30px;
+  text-transform: uppercase;
+  padding-top: 5px;
 }
 
 footer {

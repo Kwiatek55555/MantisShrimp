@@ -22,10 +22,18 @@ p {
     margin: 10px 0;
     line-height: 1.5em;
 }
+header {
+    position: relative;
+}
 
 h1 {
+    position: absolute;
+    top: 85%;
+    height: 50px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.541);
+    width: $maxsize;
+    padding: 5px 0;
 }
 
 h1, h2 {
@@ -51,7 +59,7 @@ article {
 }
 
 table {
-    color: $mainColor;
+    color: $mainColor + #222;
     width: $maxsize - 100px;
     margin: 0 auto 30px;
     border-collapse: collapse;
@@ -68,6 +76,8 @@ table {
     caption {
         border: solid 1px $mainColor - #111;
         height: 30px;
+        text-transform: uppercase;
+        padding-top: 5px;
     }
 }
 
